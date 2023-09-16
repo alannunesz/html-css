@@ -1,0 +1,17 @@
+
+h1{
+    text-align: center;
+    color: white;
+}
+body{
+    background-color: black;
+}
+iframe{
+    margin-left: 350px;
+}
+img{
+    display: block;
+    float: inline-end;
+    margin-left: 720px;
+    
+}
