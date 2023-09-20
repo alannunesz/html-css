@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'PassionOne';
+    src: url(fontes/PassionOne-Bold.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Sriacha';
+    src: url(fontes/Sriracha-Regular.ttf) format(truetype);
+}
+
+:root { 
+    --fonte1: 'PassionOne', cursive;
+    --fonte2: 'Sriacha', cursive;
+
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: white;
+    max-width: auto;
+    min-width: 300px;
+}
+
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+header > p {
+    font-size: 1.1em;
+}
+
+h1 {
+    font-family: var(--fonte1);
+    color: white;
+    background-color: black;
+    font-size: 8em;
+    text-align: center;
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    line-height: 2em;
+}
+
+div{
+    padding: 70px 0px 70px 0px;
+}
+
+div#e1 {
+    font-family: var(--fonte2);
+    width: 800px;
+    font-size: 3.1em;
+    margin-left: 30px;
+}
+
+div#e2 {
+    background-image: url(imagens/background001.jpg);
+    height: 700px;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div#e2 > p {
+    background-color: rgba(0, 0, 0, 0.171);
+    width: 600px;
+    font-family: var(--fonte2);
+    font-size: 3.1em;
+    color: white;
+    margin-left: 30px;
+    padding-left: 5px;
+}
+
+div#e3 {
+    font-family: var(--fonte2);
+    width: 700px;
+    font-size: 3.1em;
+    margin-left: 30px;
+}
+
+div#e4 {
+    background-image: url(imagens/background002.jpg);
+    height: 700px;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+div#e4 > p {
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 600px;
+    font-family: var(--fonte2);
+    font-size: 3.1em;
+    color: white;
+    margin-left: 30px;
+    padding-left: 5px;
+    
+}
+
+div#e5 {
+    font-family: var(--fonte2);
+    width: 700px;
+    font-size: 3.1em;
+    margin-left: 30px;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
