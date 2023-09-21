@@ -19,10 +19,9 @@
     padding: 0%;
 }
 
-body {
+html, body {
+    min-height: 100vh;
     background-color: white;
-    max-width: auto;
-    min-width: 300px;
 }
 
 header {
@@ -40,9 +39,11 @@ h1 {
     font-family: var(--fonte1);
     color: white;
     background-color: black;
-    font-size: 8em;
+    font-size: 10vw;
     text-align: center;
+    font-variant: small-caps;
 }
+
 
 a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -59,67 +60,43 @@ p {
     line-height: 2em;
 }
 
-div{
-    padding: 70px 0px 70px 0px;
+div {
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    padding-left: 30px;
+    font-size: 3.5vw;
 }
 
-div#e1 {
+.text {
     font-family: var(--fonte2);
-    width: 800px;
-    font-size: 3.1em;
-    margin-left: 30px;
 }
+
 
 div#e2 {
     background-image: url(imagens/background001.jpg);
-    height: 700px;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
-div#e2 > p {
-    background-color: rgba(0, 0, 0, 0.171);
-    width: 600px;
-    font-family: var(--fonte2);
-    font-size: 3.1em;
-    color: white;
-    margin-left: 30px;
-    padding-left: 5px;
-}
-
-div#e3 {
-    font-family: var(--fonte2);
-    width: 700px;
-    font-size: 3.1em;
-    margin-left: 30px;
-}
 
 div#e4 {
     background-image: url(imagens/background002.jpg);
-    height: 700px;
-    background-position: center center;
+
+}
+
+.img {
+    background-color: black;
+    box-shadow:  inset 6px 6px 13px 0px rgba(0, 0, 0, 0.719);
+    text-shadow: 2px 1px 0px black;
+    background-position: right center;
     background-attachment: fixed;
     background-size: cover;
 }
 
-
-div#e4 > p {
+.img > p {
     background-color: rgba(0, 0, 0, 0.459);
-    width: 600px;
     font-family: var(--fonte2);
-    font-size: 3.1em;
     color: white;
-    margin-left: 30px;
-    padding-left: 5px;
-    
-}
-
-div#e5 {
-    font-family: var(--fonte2);
-    width: 700px;
-    font-size: 3.1em;
-    margin-left: 30px;
+    padding: 10px;
+    display: inline-block;
 }
 
 footer {
