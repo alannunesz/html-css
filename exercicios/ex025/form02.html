@@ -6,7 +6,19 @@
     <title>Formulário</title>
 </head>
 <body>
-   <h1>Métodos GET e POST</h1>
-   <form action=""></form>
+    <h1>Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iusu">Usuário:</label>
+        <input type="text" name="usu" id="iusu" required placeholder="nome de usuário" autocomplete="username">
+        </p>
+        <p>
+            <label for="ipass">Password:</label>
+        <input type="password" name="pass" id="ipass" required maxlength="20" minlength="8" placeholder="min 8 carácteres" autocomplete="new-password">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
 </body>
 </html>
